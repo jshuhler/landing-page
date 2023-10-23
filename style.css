@@ -3,7 +3,8 @@
 }
 
 body {
-    margin: 0
+    margin: 0;
+    min-height: 100vh;
 }
 
 a {
@@ -17,7 +18,6 @@ ul {
 
 .page-container {
     position: relative;
-    min-height: 100vh;
 }
 
 .header {
@@ -142,41 +142,60 @@ h2 {
     padding-right: 100px;
 }
 
+/* Call to action section */
 .section-four {
+    height: 400px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .action-container {
     display: flex;
     background-color: #3882F6;
     border-radius: 8px;
+    height: 65px;
     padding: 50px 320px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
 }
 
 .section-four button {
     border: none;
     border-radius: 8px;
-    background: #F9FAF8;
-    border: 2px solid #3882F6;
-    color: #3882F6;
+    background: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
     padding: 8px 24px;
     font-weight: 700;
 }
 
 .section-four button:hover {
-    background: #3882F6;
-    color: #F9FAF8;
-    border: 2px solid #F9FAF8;
+
+    background: #F9FAF8;
+    border: 2px solid #3882F6;
+    color: #3882F6;
+
+
     cursor: pointer;
 }
 
-.action {
-
+.action-left {
+    width: 550px;
 }
 
+.action {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.action-info {
+    color: #F9FAF8;
+}
+
+/* Footer */
 /*
 .footer {
     position: absolute;
