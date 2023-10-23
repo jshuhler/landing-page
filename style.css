@@ -134,16 +134,54 @@ h2 {
 }
 
 .testimonial {
+    display: flex;
+    font-size: 24px;
     font-weight: 700;
-    background-color: red;
+    width: 800px;
+    justify-content: right;
+    padding-right: 100px;
 }
 
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
+.action-container {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 320px;
+    justify-content: space-between;
+}
 
+.section-four button {
+    border: none;
+    border-radius: 8px;
+    background: #F9FAF8;
+    border: 2px solid #3882F6;
+    color: #3882F6;
+    padding: 8px 24px;
+    font-weight: 700;
+}
 
+.section-four button:hover {
+    background: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    cursor: pointer;
+}
+
+.action {
+
+}
+
+/*
 .footer {
     position: absolute;
     bottom: 0;
     padding: 16px;
     background: #1F2937;
 }
+*/
