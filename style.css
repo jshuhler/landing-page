@@ -196,11 +196,12 @@ h2 {
 }
 
 /* Footer */
-/*
 .footer {
-    position: absolute;
-    bottom: 0;
+    display: flex;
     padding: 16px;
+    height: 64px;
     background: #1F2937;
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
-*/
